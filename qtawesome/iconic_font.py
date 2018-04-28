@@ -222,11 +222,11 @@ class IconicFont(QObject):
             # Verify that vendorized fonts are not corrupt
             if not SYSTEM_FONTS:
                 md5_hashes = {'Font Awesome 5 Brands-Regular-400.otf':
-                              'fa63e85727b1b8ad35b9390d81617e08',
+                              '8da87ca24e974f3790f1febe63a77c27',
                               'Font Awesome 5 Free-Regular-400.otf':
-                              '57f731fe9728946eea37155e8ca0479a',
+                              '9b335a0bddbe142c578a28935d821650',
                               'Font Awesome 5 Free-Solid-900.otf':
-                              '6a001f8bc3ace8d0fff495ebd123413e',
+                              '66fcfa2d4ad1c44076b2c71381f41e80',
                               'elusiveicons-webfont.ttf':
                               '207966b04c032d5b873fd595a211582e'}
                 ttf_hash = md5_hashes.get(font_file, None)
